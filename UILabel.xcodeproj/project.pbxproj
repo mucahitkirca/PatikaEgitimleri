@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,15 +56,39 @@
 		50B6C4AE2937F65400F678BB /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				50B6C4AF2937F65400F678BB /* AppDelegate.swift */,
-				50B6C4B12937F65400F678BB /* SceneDelegate.swift */,
-				50B6C4B32937F65400F678BB /* ViewController.swift */,
-				50B6C4B52937F65400F678BB /* Main.storyboard */,
-				50B6C4B82937F66100F678BB /* Assets.xcassets */,
-				50B6C4BA2937F66100F678BB /* LaunchScreen.storyboard */,
-				50B6C4BD2937F66100F678BB /* Info.plist */,
+				50B6C4C52937F93300F678BB /* View */,
+				50B6C4C42937F92700F678BB /* Controllers */,
+				50B6C4C32937F7B200F678BB /* SupportingFiles */,
 			);
 			path = UILabel;
+			sourceTree = "<group>";
+		};
+		50B6C4C32937F7B200F678BB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				50B6C4BD2937F66100F678BB /* Info.plist */,
+				50B6C4AF2937F65400F678BB /* AppDelegate.swift */,
+				50B6C4B12937F65400F678BB /* SceneDelegate.swift */,
+				50B6C4B82937F66100F678BB /* Assets.xcassets */,
+				50B6C4BA2937F66100F678BB /* LaunchScreen.storyboard */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		50B6C4C42937F92700F678BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				50B6C4B32937F65400F678BB /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		50B6C4C52937F93300F678BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50B6C4B52937F65400F678BB /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,7 +127,7 @@
 				};
 			};
 			buildConfigurationList = 50B6C4A72937F65300F678BB /* Build configuration list for PBXProject "UILabel" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -290,6 +314,7 @@
 				DEVELOPMENT_TEAM = L3TN22D7A3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UILabel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UILabel;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +343,7 @@
 				DEVELOPMENT_TEAM = L3TN22D7A3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UILabel/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UILabel;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
