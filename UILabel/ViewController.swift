@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         firstLabel.text = "yeni bir label metnidir"
         firstLabel.font = UIFont.systemFont(ofSize: 30)
-        firstLabel.shadowColor = UIColor.systemRed
+        firstLabel.shadowColor = UIColor.systemBlue
         
     }
 
