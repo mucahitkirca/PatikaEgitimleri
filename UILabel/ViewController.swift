@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         firstLabel.text = "label metni değiştirildi!"
         firstLabel.font = UIFont.systemFont(ofSize: 30)
-        firstLabel.shadowColor = UIColor.lightGray
+        firstLabel.shadowColor = UIColor.systemRed
         
     }
 
