@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func girisDidTapped(_ sender: Any) {
-        
+    @IBAction func girisDidTapped(_ sender: UIButton) {
+        sender.tintColor = UIColor.darkGray
         girisTappedLabel.text = "Giriş Yapıldı!.."
     }
     

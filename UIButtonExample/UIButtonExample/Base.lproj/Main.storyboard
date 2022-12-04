@@ -23,7 +23,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="girisDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Av6-YL-hhl"/>
+                                    <action selector="girisDidTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q0D-wJ-bYw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Merhaba" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxB-P3-vLb">
