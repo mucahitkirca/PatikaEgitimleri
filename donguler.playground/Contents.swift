@@ -20,5 +20,5 @@ for sayi in sayilar {
 }
 
 for (indexNumber, say) in sayilar.enumerated() {
-    print("indeks: \(indexNumber) --> veri: \(say)")
+    print("indeks: \(indexNumber) --> veriler: \(say)")
 }
