@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var firstLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        firstLabel.text = "yeni bir label metni"
+        firstLabel.text = "yeni bir label metnidir"
         firstLabel.font = UIFont.systemFont(ofSize: 30)
         firstLabel.shadowColor = UIColor.systemRed
         
