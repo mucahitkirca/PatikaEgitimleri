@@ -9,7 +9,7 @@ import UIKit
 
 class InitialTableViewController: UITableViewController {
     
-    let tableViewData = [
+    var tableViewData = [
     ["General", "Accessibility", "Privacy"],
     ["Password"],
     ["Safari", "News"],
@@ -45,6 +45,21 @@ class InitialTableViewController: UITableViewController {
 
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let alertController = UIAlertController(title: "Attention!..", message: tableViewData[indexPath.section][indexPath.row], preferredStyle: .alert)
+        
+        
+        alertController.addAction(UIAlertAction(title: "Ok!...", style: UIAlertAction.Style.default, handler: { _ in
+            alertController.dismiss(animated: true)
+        }))
+        
+        alertController.addAction(UIAlertAction(title: "Delete", style: .destructive, handler: { _ in
+            self.tableViewData[indexPath.section].remove(at: indexPath.row)
+            tableView.reloadData()
+        }))
+        present(alertController, animated: true)
     }
     
 
